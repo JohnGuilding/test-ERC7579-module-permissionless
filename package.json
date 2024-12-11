@@ -1,0 +1,22 @@
+{
+  "name": "test-erc7579-module-permissionless",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "safe7579": "tsx src/safe7579.ts",
+    "kernel": "tsx src/kernel.ts"
+  },
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "permissionless": "^0.2.22",
+    "tsx": "^4.19.2",
+    "viem": "^2.21.54"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1"
+  }
+}
